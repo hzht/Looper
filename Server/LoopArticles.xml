@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version='2.0'>
+<channel>
+<title>The Loop</title>
+<description>Internal Communications</description>
+<language>en-us</language>
+<item>
+	<id>32fsa</id>
+	<title>Test Article</title>
+	<description>Description of article</description>
+	<link>https://www.google.com.au</link>
+	<pubDate></pubDate>
+	<state>New</state>
+</item>
+</channel>
+</rss>
