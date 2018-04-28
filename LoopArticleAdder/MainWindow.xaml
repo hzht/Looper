@@ -1,0 +1,20 @@
+﻿<Window x:Class="LoopArticleAdder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoopArticleAdder"
+        mc:Ignorable="d"
+        Title="Loop Article Adder" Height="195.6" Width="233.8">
+    <Grid>
+        <Button x:Name="BtnAdd" Content="Add" HorizontalAlignment="Left" Margin="168,137,0,0" VerticalAlignment="Top" Width="48" Height="23" Click="BtnAdd_Click"/>
+        <TextBox x:Name="ArticleTitle" HorizontalAlignment="Left" Height="23" Margin="96,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ArticleDesc" HorizontalAlignment="Left" Height="65" Margin="96,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ArticleLink" HorizontalAlignment="Left" Height="23" Margin="96,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Title:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="51"/>
+        <Label Content="Description:" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="81"/>
+        <Label Content="Link to Article:" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Width="81"/>
+        <Label x:Name="testLabel" Content="" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top" Width="153" Foreground="Red" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
